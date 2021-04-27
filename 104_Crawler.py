@@ -39,7 +39,7 @@ def ETL_104(search, page, isnew):
 
                 # ----薪資待遇及福利----
                 JobSalary = Job_soup.select('div.content')[2].text.split('：')[1]
-                JobSalary = JobSalary.replace('\n', '').strip() # 調整格式
+                JobSalary = JobSalary.replace('\n', '').strip() # 調整格式 , strip() => 消除字串前後空白
                 EmployeeBenefit = Job_soup.select('div.content')[3].text
                 EmployeeBenefit = EmployeeBenefit.strip() #調整格式
 
