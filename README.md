@@ -10,3 +10,7 @@
 ### 3/6 更新
 - 修改'Skills.py'，上個版本所新增的skill欄位都會用大寫的方式新增，這次改版將所新增的欄位按照原本自定義字典'mydict.txt'的內容做新增
 - 新增'01-TO_EXCEL.py'檔，可將爬蟲過後的資料儲存成Excel檔案
+### 4/27 更新
+- 修改檔名 ETL.py => 104_Crawler.py
+- 修改檔名 Skills.py => Skill_ Statistics.py
+- 新增範例檔 sample20210427_1358.csv
